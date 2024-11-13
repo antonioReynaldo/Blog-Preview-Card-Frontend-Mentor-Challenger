@@ -1,0 +1,88 @@
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray500: hsl(0, 0%, 42%);
+  --Gary950: hsl(0, 0%, 7%);
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+  background-color: var(--Yellow);
+  color: var(--Gary950);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--White);
+  width: 85%;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px 1px;
+  border: 2px solid #000;
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card__button {
+  display: inline-block;
+  background-color: var(--Yellow);
+  text-decoration: none;
+  margin: 15px 0px;
+  padding: 6px 12px;
+  font-weight: 900;
+  color: var(--Gary950);
+  border-radius: 6px;
+}
+
+.card__date,
+.card__title,
+.card__copy {
+  margin-bottom: 15px;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.card__copy {
+  font-weight: 300;
+}
+
+.user__flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user__img {
+  width: 32px;
+  height: 32px;
+}
+
+.user__name {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    max-width: 300px;
+    max-height: 450px;
+  }
+}
