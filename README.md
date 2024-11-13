@@ -31,7 +31,7 @@ Este es un proyecto de **Frontend Mentor** llamado **Blog Preview Card**. El ret
 ## Enlace al proyecto en vivo
 
 Puedes ver el proyecto en vivo en el siguiente enlace:  
-[Blog Preview Card en Netlify](https://blog-preview-card.netlify.app/)
+[Blog Preview Card en Netlify](https://proyect-blog-preview-card.netlify.app/)
 
 ## Contribuciones
 
